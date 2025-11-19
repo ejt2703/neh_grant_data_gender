@@ -951,6 +951,7 @@ dependencies = [
     { name = "ipykernel" },
     { name = "jupyter" },
     { name = "pandas" },
+    { name = "requests" },
 ]
 
 [package.metadata]
@@ -959,6 +960,7 @@ requires-dist = [
     { name = "ipykernel", specifier = ">=7.1.0" },
     { name = "jupyter", specifier = ">=1.1.1" },
     { name = "pandas", specifier = ">=2.3.3" },
+    { name = "requests", specifier = ">=2.32.5" },
 ]
 
 [[package]]
